@@ -104,7 +104,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_EXPANDED_DESKTOP_NO_NAVBAR = "expanded_desktop_no_navbar";
     private static final String CATEGORY_EXPANDED_DESKTOP = "expanded_desktop_category";
     private static final String KEY_PEEK = "notification_peek";
-    private static final String PEEK_APPLICATION = "com.jedga.peek";
+    private static final String PEEK_APPLICATION = "com.jedga.peek.free";
 
     private ListPreference mExpandedDesktopPref;
     private CheckBoxPreference mExpandedDesktopNoNavbarPref;
