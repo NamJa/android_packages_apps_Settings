@@ -190,7 +190,7 @@ public class InstalledAppDetails extends Fragment
     private static final int DLG_DISABLE_NOTIFICATIONS = DLG_BASE + 8;
     private static final int DLG_SPECIAL_DISABLE = DLG_BASE + 9;
     private static final int DLG_PRIVACY_GUARD = DLG_BASE + 10;
-    private static final int DLG_BLACKLIST = DLG_BASE + 10;
+    private static final int DLG_BLACKLIST = DLG_BASE + 11;
 
     // Menu identifiers
     public static final int UNINSTALL_ALL_USERS_MENU = 1;
@@ -1361,6 +1361,7 @@ public class InstalledAppDetails extends Fragment
                     })
                     .setNegativeButton(R.string.dlg_cancel, null)
                     .create();
+
                 case DLG_PRIVACY_GUARD:
                     final int messageResId;
                     if ((getOwner().mAppEntry.info.flags & ApplicationInfo.FLAG_SYSTEM) != 0) {
