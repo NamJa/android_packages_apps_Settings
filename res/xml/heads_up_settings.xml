@@ -28,6 +28,12 @@
     <PreferenceCategory
             android:title="@string/heads_up_blacklist_title"
             android:key="blacklist_applications">
+
+    <com.android.settings.cyanogenmod.SystemSettingCheckBoxPreference
+        android:key="heads_up_floating_window"
+        android:title="@string/heads_up_floating_window"
+        android:defaultValue="false" />
+
         <Preference
             android:key="add_blacklist_packages"
             android:icon="@drawable/ic_menu_add"
